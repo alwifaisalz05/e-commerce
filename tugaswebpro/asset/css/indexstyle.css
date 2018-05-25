@@ -1,0 +1,316 @@
+body{
+}
+
+.brand{
+	margin-left: -50px;
+}
+
+#logo{
+	width: 30px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+#search{
+	margin-left: 80px;
+	width: 600px;
+}
+
+#masuk{
+	margin-right: -40px;
+}
+
+.service{
+	margin-bottom: -5px;
+}
+
+#gambar{
+	margin : 10px;
+	border-radius: 5px;
+}
+
+.product-item {
+    padding: 15px;
+    background: #fff;
+    margin-top: 20px;
+    position: relative;
+}
+.product-item:hover {
+    box-shadow: 5px 5px rgba(234, 234, 234, 0.9);
+}
+.product-item:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+    line-height:0;
+}
+.sticker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 63px;
+    height: 63px;
+}
+.sticker-new {
+    background: url(http://keenthemes.com/assets/bootsnipp/new.png) no-repeat;
+    left: auto;
+    right: 0;
+}
+.pi-img-wrapper {
+    position: relative;
+}
+.pi-img-wrapper div {
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.product-item:hover>.pi-img-wrapper>div {
+    display: block;
+}
+.pi-img-wrapper div .btn {
+    padding: 3px 10px;
+    color: #fff;
+    border: 1px #fff solid;
+    margin: -13px 5px 0;
+    background: transparent;
+    text-transform: uppercase;
+    position: relative;
+    top: 50%;
+    line-height: 1.4;
+    font-size: 12px;
+}
+.product-item .btn:hover {
+    background: #e84d1c;
+    border-color: #c8c8c8;
+}
+
+.product-item h3 {
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 4px;
+    text-transform: uppercase;
+}
+.product-item h3 a {
+    color: #3e4d5c;
+}
+.product-item h3 a:hover {
+    color: #E02222;
+}
+.pi-price {
+    color: #e84d1c;
+    font-size: 18px;
+    float: left;
+    padding-top: 1px;
+}
+.product-item .add2cart {
+    float: right;
+    color: #a8aeb3;
+    border: 1px #ededed solid;
+    padding: 3px 6px;
+    text-transform: uppercase;
+}
+
+.product-item .add2cart:hover {
+    color: #fff;
+   	background: #e84d1c;
+   	border-color: #e84d1c;
+}
+
+#kantor{
+	margin-bottom: 5px;
+}
+
+#maps{
+	margin-left: 20px;
+}
+
+#icon{
+    margin-left: 80px;
+}
+
+#pin{
+	margin: 5px;
+}
+
+#named{
+	margin-left: -200px;
+	margin-top: 6px;
+}
+
+#pinbank{
+	margin: 7px;
+}
+
+/** Slider Rekomendasi */
+
+
+/** CSS untuk Login */
+
+    body{
+      background-image: url(bg.jpg);
+      background-repeat: no-repeat;
+      background-size: 1600px;
+    }
+
+    .card-container.card {
+      max-width: 350px;
+      padding: 40px 40px;
+    }
+
+    .btn {
+      font-weight: 700;
+      height: 36px;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      user-select: none;
+      cursor: default;
+    }
+
+    /*
+    * Card component
+    */
+    .card {
+      background-color: #F7F7F7;
+      /* just in case there no content*/
+      padding: 20px 25px 30px;
+      margin: 0 auto 25px;
+      margin-top: 50px;
+      /* shadows and rounded borders */
+      -moz-border-radius: 2px;
+      -webkit-border-radius: 2px;
+      border-radius: 2px;
+      -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+      -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    }
+
+    .profile-img-card {
+      width: 96px;
+      height: 96px;
+      margin: 0 auto 10px;
+      display: block;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+    }
+
+    /*
+    * Form styles
+    */
+    .profile-name-card {
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      margin: 10px 0 0;
+      min-height: 1em;
+    }
+
+    .reauth-nim {
+      display: block;
+      color: #404040;
+      line-height: 2;
+      margin-bottom: 10px;
+      font-size: 14px;
+      text-align: center;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    .form-signin #inputnim,
+    .form-signin #inputPassword {
+      direction: ltr;
+      height: 44px;
+      font-size: 16px;
+    }
+
+    .form-signin input[type=nim],
+    .form-signin input[type=password],
+    .form-signin input[type=text],
+    .form-signin button {
+      width: 100%;
+      display: block;
+      margin-bottom: 10px;
+      z-index: 1;
+      position: relative;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    .form-signin .form-control:focus {
+      border-color: rgb(104, 145, 162);
+      outline: 0;
+      -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+      box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+    }
+
+    .btn.btn-signin {
+      /*background-color: #4d90fe; */
+      background-color: rgb(104, 145, 162);
+      /* background-color: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));*/
+      padding: 0px;
+      font-weight: 700;
+      font-size: 14px;
+      height: 36px;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+      border: none;
+      -o-transition: all 0.218s;
+      -moz-transition: all 0.218s;
+      -webkit-transition: all 0.218s;
+      transition: all 0.218s;
+    }
+
+    .btn.btn-signin:hover,
+    .btn.btn-signin:active,
+    .btn.btn-signin:focus {
+      background-color: rgb(12, 97, 33);
+    }
+
+    .forgot-password {
+      color: rgb(104, 145, 162);
+    }
+
+    .forgot-password:hover,
+    .forgot-password:active,
+    .forgot-password:focus{
+      color: rgb(12, 97, 33);
+    }
+
+
+
+#icon{
+    margin-left: 75px;
+}
+
+.deskripsilanjutan{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.spesifikasi{
+    margin-left: 95px;
+    margin-right: 95px; 
+}
+
+.tombol{
+    margin-left: 1055px;
+}
+
+/* Business Auditor */
+      #comingsoon{
+        margin-left: 200px; 
+      }
